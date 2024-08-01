@@ -1,6 +1,6 @@
 import {Locator, Page} from '@playwright/test';
 
-const ASSET_TITLE_SELECTOR = "//*[@data-test='manage-top-bar']//*[@data-test='asset-title']";;
+const ASSET_TITLE_SELECTOR = "//*[@data-test='manage-top-bar']//*[@data-test='asset-title']";
 
 
 /**
