@@ -8,6 +8,8 @@ Before you begin, ensure you have met the following requirements:
 
 - Node.js (version 18.x or later)
 - pnpm (version 8.x or later)
+- Install Playwright:
+  pnpm exec playwright install
 - Access to Cloudinary account credentials
 
 ## Setup
@@ -16,10 +18,12 @@ Before you begin, ensure you have met the following requirements:
 2. Install the project dependencies using pnpm:
 pnpm install
 3. Create a .env file in the root directory of the project and add your Cloudinary credentials:
+
 EMAIL=your-email
+
 PASSWORD=your-password
-   **Make sure to replace your-email and your-password with your actual Cloudinary credentials** 
-4. Install Playwright:
-pnpm exec playwright install
-5. To run the tests, use the following command:
+
+  **Make sure to replace your-email and your-password with your actual Cloudinary credentials**
+
+4. To run the tests, use the following command:
 pnpm exec playwright test
