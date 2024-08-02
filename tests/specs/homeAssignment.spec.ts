@@ -43,6 +43,7 @@ test('Shay Automation home assignment', async ({ page }) => {
     });
     await test.step('Upload any image from my PC ', async () => {
         const uwFrame = new UploadWidgetFrame(page);
+        //Change it to asset from your local PC
         const filePath = path.resolve('/Users/shaylevi/Downloads/image_upload.jpg');
         await uwFrame.uploadLocalFile(filePath);
         await uwFrame.uploadStatusCompleted.waitFor();

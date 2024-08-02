@@ -24,6 +24,9 @@ EMAIL=your-email
 PASSWORD=your-password
 
   **Make sure to replace your-email and your-password with your actual Cloudinary credentials**
+4. Make sure to replace filePath to a path of an asset from your PC:
 
-4. To run the tests, use the following command:
+const filePath = path.resolve('<your_image_path_source>');
+
+5. To run the tests, use the following command:
 pnpm exec playwright test
