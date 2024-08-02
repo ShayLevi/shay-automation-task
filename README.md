@@ -19,14 +19,14 @@ Before you begin, ensure you have met the following requirements:
 pnpm install
 3. Create a .env file in the root directory of the project and add your Cloudinary credentials:
 
-EMAIL=your-email
+    EMAIL=your-email
 
-PASSWORD=your-password
+    PASSWORD=your-password
 
-  **Make sure to replace your-email and your-password with your actual Cloudinary credentials**
+    **Make sure to replace your-email and your-password with your actual Cloudinary credentials**
 4. Make sure to replace filePath to a path of an asset from your PC:
 
-const filePath = path.resolve('<your_image_path_source>');
+    const filePath = path.resolve('<your_image_path_source>');
 
 5. To run the tests, use the following command:
 pnpm exec playwright test
