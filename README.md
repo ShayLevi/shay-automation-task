@@ -29,4 +29,4 @@ pnpm install
     const filePath = path.resolve('<your_image_path_source>');
 
 5. To run the tests, use the following command:
-pnpm exec playwright test
+   pnpm run test
