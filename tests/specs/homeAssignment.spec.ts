@@ -1,15 +1,9 @@
 import {test, expect} from '@playwright/test';
-import { LoginPage } from '../pom/LoginPage';
-import {MediaLibraryPage} from "../pom/mediaLibraryPage";
-import {UploadWidgetFrame} from "../pom/uploadWidgetFrame";
 import * as path from "path";
 import { v4 as uuidv4 } from "uuid";
-import {AssetManagePage} from "../pom/assetManagePage";
 // @ts-ignore
 import dotenv from 'dotenv';
-import {DeveloperDashboardPage} from "../pom/developerDashboardPage";
 import {haTest} from "../fixtures/haTest";
-//import { haTest as test } from '../fixtures/haTest';
 
 // Load environment variables from .env file
 dotenv.config();
